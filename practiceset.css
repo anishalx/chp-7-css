@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: inline-grid;
+    /* margin-left:50px; */
+    padding: 5px;
+
+    grid-template-columns: auto auto;
+
+}
+ul li{
+    /* display: inline; */
+    list-style: square;
+    /* margin-right: 10px; */
+    margin-left:50px;
+
+}
+header{
+    background-color: black;
+    color: white;
+}
+.container{
+    background-color: blueviolet;
+    color: chartreuse;
+}
+body{
+    background-color: cornflowerblue;
+}
+@media screen and (max-width:700px) {
+    body{
+        background-color: cyan;
+    }
+    .container{
+        background-color: cornsilk;
+        color: red;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    body{
+        background-color: rgba(1, 246, 107, 0.752);
+    }
+    .container{
+        background-color: rgba(118, 46, 8, 0.753);
+        color: rgb(88, 16, 16);
+    }
+    
+}

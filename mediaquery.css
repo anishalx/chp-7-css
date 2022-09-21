@@ -1,0 +1,13 @@
+.container{
+    background-color: red;
+    height: 34vh;
+}
+@media screen and  (max-width:700px){
+  body{
+    background-color: aqua;
+  }  
+  .container{
+    background-color: greenyellow;
+    color: crimson;
+  }
+}
